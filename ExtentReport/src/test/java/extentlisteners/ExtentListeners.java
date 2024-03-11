@@ -69,7 +69,7 @@ public class ExtentListeners implements ITestListener {
 		String failureLogg="TEST CASE FAILED";
 		Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
 		testReport.get().log(Status.FAIL, m);
-
+		System.out.println("Testing the repository");
 	}
 
 	public void onTestSkipped(ITestResult result) {
