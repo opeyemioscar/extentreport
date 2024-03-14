@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-14T21:06:55 WAT" name="Suite" finished-at="2024-03-14T21:08:04 WAT" duration-ms="69801">
+    <groups>
+    </groups>
+    <test started-at="2024-03-14T21:06:55 WAT" name="Test" finished-at="2024-03-14T21:08:04 WAT" duration-ms="69801">
+      <class name="Test.TestClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TestClass@3e27ba32]" started-at="2024-03-14T21:06:55 WAT" name="setUp" finished-at="2024-03-14T21:08:04 WAT" duration-ms="69163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToGoogle()[pri:0, instance:Test.TestClass@3e27ba32]" started-at="2024-03-14T21:08:04 WAT" name="navigateToGoogle" finished-at="2024-03-14T21:08:04 WAT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGoogle -->
+        <test-method signature="validateLogo()[pri:0, instance:Test.TestClass@3e27ba32]" started-at="2024-03-14T21:08:04 WAT" name="validateLogo" finished-at="2024-03-14T21:08:04 WAT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TestClass@3e27ba32]" started-at="2024-03-14T21:08:04 WAT" name="tearDown" finished-at="2024-03-14T21:08:04 WAT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
